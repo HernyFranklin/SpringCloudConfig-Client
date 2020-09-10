@@ -17,7 +17,7 @@ public class CloudConfiguration {
     @Value("${secretKey: Error loading from vault...}")
     private String secretKey;
 
-    @Value("${sample.property: Error loading from git file...}")
+    @Value("${sample.property: Error loading from git...}")
     private String sample;
 
     @Value("${ciam.provider.api-key: NOT_FOUND}")
